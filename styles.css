@@ -19,6 +19,7 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    grid-template-columns: 50% 50%;
 }
 
 .container {
@@ -31,4 +32,9 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
 }
